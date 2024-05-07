@@ -14,8 +14,16 @@ Team: biejuanle (Southern University of Science and Technology and Zhejiang Univ
 | Yujie Wang | wangyujie.mail@gmail.com | Southern University of Science and Technology |
 | Peiran Liang | 12210726@mail.sustech.edu.cn | Southern University of Science and Technology |
 
+## Prerequisites
+
+Before getting started, make sure you have the following tools installed:
+
+- CMake: >= 3.10
+- G++: >= 9.4.0
+- OpenMP: >= 4.0
 
 ## Compile and Run
+
 
 ```bash
 mkdir build && cd build
