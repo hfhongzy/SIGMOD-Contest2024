@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.10)
+project(FilterAnn)
+
+set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+SET(CMAKE_CXX_FLAGS  "-Wall -Wextra -O3 -lrt -std=c++20 -march=native -fpic -fopenmp -ftree-vectorize -fno-exceptions -fno-rtti" )
+# SET(CMAKE_CXX_FLAGS  "-Wall -Wextra -O0 -g -lrt -std=c++20 -march=native -fpic -fopenmp" )
+include_directories(include)
+add_executable(main src/acorn.cpp src/utils.cpp)
