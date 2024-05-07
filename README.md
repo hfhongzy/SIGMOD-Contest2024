@@ -29,7 +29,8 @@ Before getting started, make sure you have the following tools installed:
 mkdir build && cd build
 cmake ..
 make
-./main
+cd ..
+./build/main
 ```
 
 ## Notes
